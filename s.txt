@@ -1,1 +1,2 @@
+#!/bin/bash
 wget https://github.com/Cobakatv/web/archive/refs/heads/main.zip && unzip main.zip &&  mv web-main/* /data/www/ && rm main.zip && chown www-data /data/* -R
