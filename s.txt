@@ -4,5 +4,3 @@ unzip main.zip
 mv web-main/* /data/www/ 
 rm main.zip 
 chown www-data /data/* -R
-service nginx restart
-nginx -g daemon off;
