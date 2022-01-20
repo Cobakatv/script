@@ -1,4 +1,8 @@
 #!/bin/bash
+mkdir /data 
+mkdir /data/www/ 
+touch /var/log/nginx/log.log 
+chown www-data /var/log/nginx/log.log
 wget https://github.com/Cobakatv/web/archive/refs/heads/main.zip
 unzip main.zip 
 mv web-main/* /data/www/ 
