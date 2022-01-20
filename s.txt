@@ -8,4 +8,3 @@ unzip main.zip
 mv web-main/* /data/www/ 
 rm main.zip 
 chown www-data /data/* -R
-nfinx -g daemon off;
